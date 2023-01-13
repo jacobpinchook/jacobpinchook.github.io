@@ -1,0 +1,286 @@
+<!-- HOME PAGE WITH BRAND INTRODUCTION -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/6c2f01fc27.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Jacob Pinchook</title>
+    <link rel="icon" href="img/logo.jpg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <!-- Mobile Burger Menu -->
+      <ul class="burgerMenu">
+        <li><a class="menuItem" href="#projects">projects</a></li>
+        <li><a class="menuItem" href="#experience">experience</a></li>
+        <li><a class="menuItem" href="#contact">contact</a></li>
+      </ul>
+
+      <button class="burger">
+        <i class="menuIcon material-icons md-36">menu</i>
+        <i class="closeIcon material-icons md-36">close</i>
+      </button>
+
+      <!-- Desktop menu -->
+      <div class="logo">
+        <a href="index.html"
+          ><img src="img/logo.jpg" class="logo-icon" alt=""
+        /></a>
+      </div>
+      <ul class="links-container">
+        <li class="link-item"><a href="#projects" class="link">projects</a></li>
+        <li class="link-item">
+          <a href="#experience" class="link">experience</a>
+        </li>
+        <li class="link-item"><a href="#contact" class="link">contact</a></li>
+        <li class="link-item resume">
+          <a href="JPinchookResume.pdf" target="_blank" class="link">resume</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- CONTENT -->
+
+    <button class="back-to-top hidden"><svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="back-to-top-icon"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M7 11l5-5m0 0l5 5m-5-5v12"
+      />
+    </svg>
+  </button>
+
+    <!-- ABOUT -->
+    <div id="about">
+      <div class="container">
+        <div class="post">
+          <div class="message">
+            <div class="body-text animate__animated animate__fadeInUp">
+              Hi, my name is
+            </div>
+          </div>
+        </div>
+        <div class="animate__animated animate__fadeInUp">
+          <div class="message">
+            <div class="major-heading">Jacob Pinchook.</div>
+            <div class="post info animate__animated animate__fadeInUp">
+              I'm a Software Engineer, currently working to sharpen my skills in
+              preparation for my next role, and I also build open source
+              projects for fun. I love learning new things and sharing my
+              discoveries with others through experiments and projects on
+              Github. I'm currently exploring React and Node. <br /><br />All of
+              my open source projects can be found on my
+              <a
+                style="text-decoration: none; color: #85aece; font-weight: bold"
+                href="https://github.com/jacobpinchook"
+                target="_blank"
+                >Github</a
+              >. Some of my favorites are listed in the
+              <a
+                style="color: #85aece; font-weight: bold; text-decoration: none"
+                href="#projects"
+                >Projects</a
+              >
+              section.
+            </div>
+            <div class="post info animate__animated animate__fadeInUp">
+              <a href="https://github.com/jacobpinchook" target="_blank"
+                ><i class="fa-2xl fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/jacobpinchook/"
+                target="_blank"
+                ><i class="fa-2xl fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div id="projects">
+      <div class="container">
+        <div  class="minor-heading">Recent Projects</div>
+      </div>
+      <ul class="flex-container">
+        <li class="flex-item">
+          <div class="toppane">
+            <i class="fa-regular fa-folder top-icon1"></i>
+            <a href="https://github.com/jacobpinchook/pig-game" target="_blank"><i class="fa-xs fa-brands fa-github top-icon2"></i
+            ></a>
+            <a href="https://github.com/jacobpinchook" target="_blank"
+              ><i
+                class="fa-solid fa-2xs fa-arrow-up-right-from-square top-icon3"
+              ></i
+            ></a>
+          </div>
+          <div class="middlepane">
+            <div class="proj-title">Pig Game</div>
+            <div class="proj-desc">
+              A single page web hosted game, for two players to enjoy. Built
+              using JavaScript techniques.
+            </div>
+          </div>
+          <div class="bottompane">
+            <div class="tech-used">
+              <ul>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="flex-item">
+          <div class="toppane">
+            <i class="fa-regular fa-folder top-icon1"></i>
+            <a href="https://github.com/jacobpinchook/guess-my-number" target="_blank"
+              ><i class="fa-xs fa-brands fa-github top-icon2"></i
+            ></a>
+            <a href="https://github.com/jacobpinchook" target="_blank"
+              ><i
+                class="fa-solid fa-2xs fa-arrow-up-right-from-square top-icon3"
+              ></i
+            ></a>
+          </div>
+          <div class="middlepane">
+            <div class="proj-title">Guess My Number</div>
+            <div class="proj-desc">
+              A single page web hosted game, for one player to enjoy. Built
+              using JavaScript techniques.
+            </div>
+          </div>
+          <div class="bottompane">
+            <div class="tech-used">
+              <ul>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="flex-item">
+          <div class="toppane">
+            <i class="fa-regular fa-folder top-icon1"></i>
+            <a href="https://github.com/jacobpinchook/angular-to-react" target="_blank"
+              ><i class="fa-xs fa-brands fa-github top-icon2"></i
+            ></a>
+            <a href="https://github.com/jacobpinchook" target="_blank"
+              ><i
+                class="fa-solid fa-2xs fa-arrow-up-right-from-square top-icon3"
+              ></i
+            ></a>
+          </div>
+          <div class="middlepane">
+            <div class="proj-title">Angular to React</div>
+            <div class="proj-desc">
+              Web based example of the use of angular2react to move a state
+              contained in angular into a react component.
+            </div>
+          </div>
+          <div class="bottompane">
+            <div class="tech-used">
+              <ul>
+                <li>JavaScript</li>
+                <li>Angular</li>
+                <li>React</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        </li>
+      </ul>
+      <div class="body-text">
+        <a
+          style="text-decoration: none; color: #85aece; font-weight: bold"
+          href="https://github.com/jacobpinchook?tab=repositories"
+          target="_blank"
+        >
+          view them all
+        </a>
+      </div>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div id="experience">
+      <div class="container">
+        <div class="minor-heading">Experience</div>
+        <div id="exp-grid">
+          <div id="item1">2022-2023</div>
+          <div id="item2">JavaScript <br/>Developer, <br/>Cru.</div>
+          <div id="item3">Exploratory role with many avenues to learn which focuses on a project involving the conversion of the existing codebase from Angular to React.</div>
+          <div id="item1">2018-2022</div>
+          <div id="item2">Liberty University, <br/>B.S. in Computer Science.</div>
+          <div id="item3">Bachelor's Degree focused on Software Engineering with an emphasis on data structures & algorithms, efficient coding strategies & an ability to learn new technologies.</div>
+          <div id="item1">2021-2022</div>
+          <div id="item2">Resident Assistant, <br/>Liberty University.</div>
+          <div id="item3">Managed a residence hall of 55 students; developed relationships with each & worked with a team to ensure a healthy hall.</div>
+          <div id="item1">2019</div>
+          <div id="item2">IT Intern, <br/>ION 247.</div>
+          <div id="item3">Learned to work within a team & the ability to take on tasks regardless of previous experience all while assiting the upkeep of IT management.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact">
+      <div class="container">
+          <div class="message">
+            <div class="major-heading">Let's Talk</div>
+            <div class="post info">
+              Good news! I'm looking for new opportunities right now. If you think I would make a good addition to your team and want to schedule a conversation, refer below to the ways you can reach me.  <br />
+            <div class="post info">
+              <a href="mailto:jacob.pinchook@gmail.com"><i class="fa-2xl fa-regular fa-envelope"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/jacobpinchook/"
+                target="_blank"
+                ><i class="fa-2xl fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>made by Jacob Pinchook, for you</footer>
+
+    <script src="js/home.js"></script>
+  </body>
+</html>
